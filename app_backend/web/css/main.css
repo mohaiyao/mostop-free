@@ -1,0 +1,95 @@
+/**
+------------------------------ start layui ------------------------------
+ */
+.layui-btn .layui-icon
+{
+    margin-right: 0;
+}
+/**
+------------------------------ end layui ------------------------------
+ */
+
+
+/**
+------------------------------ start container ------------------------------
+ */
+.mos-common-container
+{
+    padding: 15px;
+}
+/**
+------------------------------ end container ------------------------------
+ */
+
+
+/**
+------------------------------ start margin ------------------------------
+ */
+.mos-common-margin-bottom10
+{
+    margin-bottom: 10px !important;
+}
+
+.mos-common-margin-bottom0
+{
+    margin-bottom: 0 !important;
+}
+
+.mos-common-margin-right0
+{
+    margin-right: 0 !important;
+}
+
+.mos-common-margin-left0
+{
+    margin-left: 0 !important;
+}
+
+.mos-common-margin-top0
+{
+    margin-top: 0 !important;
+}
+/**
+------------------------------ end margin ------------------------------
+ */
+
+
+/**
+------------------------------ start text-align ------------------------------
+ */
+.mos-common-text-align-center
+{
+    text-align: center;
+}
+/**
+------------------------------ end text-align ------------------------------
+ */
+
+
+/**
+------------------------------ start float ------------------------------
+ */
+.mos-common-float-left
+{
+    float: left;
+}
+/**
+------------------------------ end float ------------------------------
+ */
+
+
+/**
+------------------------------ start width ------------------------------
+ */
+.mos-common-width120
+{
+    width: 120px !important;
+    max-width: none !important;
+}
+.mos-common-width300
+{
+    width: 300px !important;
+}
+/**
+------------------------------ end width ------------------------------
+ */

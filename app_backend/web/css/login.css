@@ -1,0 +1,66 @@
+html
+{
+    height: 100%;
+}
+
+body
+{
+    background-image: url('/img/login_bg.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.mos-login-form
+{
+    width: 300px;
+    margin: 200px auto 0;
+    background-color: #F1F2F4;
+    border-radius: 4px;
+    padding: 20px;
+    padding-bottom: 5px;
+}
+
+.mos-login-form .mos-login-form-title
+{
+    font-size: 30px;
+    margin-bottom: 30px;
+    margin-top: 20px;
+    text-align: center;
+    color: #393D49;
+    font-weight: bold;
+}
+
+.mos-login-form .layui-input-block, .mos-login-form .layui-input-inline
+{
+    margin-left: 0;
+}
+
+.mos-login-form .layui-input-block .layui-icon, .mos-login-form .layui-input-inline .layui-icon
+{
+    position: absolute;
+    color: #d2d2d2;
+    top: 11px;
+    left: 10px;
+}
+
+.mos-login-form .layui-input-block .layui-input, .mos-login-form .layui-input-inline .layui-input
+{
+    padding-left: 33px;
+}
+
+.mos-login-form .layui-btn
+{
+    width: 100%;
+}
+
+.mos-login-form .mos-login-form-captcha
+{
+    float: right;
+}
+
+.mos-login-form #mos-login-form-captcha-img
+{
+    border: 1px solid #e6e6e6;
+    border-radius: 2px;
+    cursor: pointer;
+}

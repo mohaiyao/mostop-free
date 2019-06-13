@@ -1,0 +1,21 @@
+html
+{
+    height: 100%;
+}
+
+body
+{
+    background-color: #F4F3EF;
+}
+
+.mos-error-container
+{
+    width: 414px;
+    margin: 150px auto 0px;
+}
+
+.mos-error-button
+{
+    margin-top: 80px;
+    text-align: center;
+}

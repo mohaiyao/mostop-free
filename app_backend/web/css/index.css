@@ -1,0 +1,152 @@
+.layui-header
+{
+    border-bottom: 5px solid #1AA094;
+}
+.layui-header .layui-logo
+{
+    width: 180px;
+    padding-left: 20px;
+    text-align: left;
+}
+.layui-header .layui-logo a
+{
+    color: rgba(255,255,255,.7);
+    font-size: 20px;
+}
+.layui-header .layui-layout-left
+{
+    padding: 0;
+}
+.layui-header .layui-layout-right
+{
+    padding-left: 0;
+}
+.layui-header .layui-nav-img
+{
+    margin-right: 5px;
+}
+.layui-header .layui-nav .layui-nav-item
+{
+    height: 65px;
+}
+.layui-header .layui-nav .layui-nav-more
+{
+    top: 31px;
+}
+
+
+.layui-layout-admin .layui-side
+{
+    top: 65px;
+}
+.mos-index-side-nav .layui-nav-item
+{
+    display: none;
+}
+.mos-index-menu-special .mos-index-special-title
+{
+    height: 45px;
+    line-height: 45px;
+    padding: 0 20px;
+}
+.mos-index-menu-special .mos-index-special-container
+{
+    background-color: #282b33;
+    padding: 2px;
+    width: 196px;
+}
+.mos-index-menu-special .mos-index-special-container a
+{
+    border-color: #282b33 !important;
+    color: rgba(255,255,255,.7);
+    background: none !important;
+}
+
+
+.layui-layout-admin .layui-body
+{
+    top: 65px;
+    bottom: 35px;
+}
+.layui-layout-admin .layui-body .layui-tab
+{
+    margin: 0;
+}
+.layui-layout-admin .layui-body .layui-tab-title
+{
+    background-color: #eee;
+    border-color: #1AA094;
+}
+.layui-layout-admin .layui-body .layui-tab-title li:first-child
+{
+    margin-left: 30px;
+}
+.layui-layout-admin .layui-body .layui-tab-title .layui-this:after
+{
+    border: none;
+}
+.layui-layout-admin .layui-body .layui-tab>.layui-tab-title .layui-this
+{
+    background-color: #1AA094;
+    color: #fff;
+}
+.layui-layout-admin .layui-body .layui-tab-content
+{
+    padding: 0;
+}
+.layui-layout-admin .layui-body .layui-tab-content .layui-tab-item
+{
+    overflow: hidden;
+}
+.layui-layout-admin .layui-body .layui-tab-content .layui-tab-item iframe
+{
+    border: 0;
+    width: 100%;
+}
+.layui-layout-admin .layui-body .layui-tab-title li:first-child i
+{
+    display: none;
+}
+
+
+.layui-layout-admin .layui-footer
+{
+    text-align: center;
+    height: 35px;
+    line-height: 35px;
+}
+
+
+.mos-index-tab-right-click
+{
+    position: absolute;
+    z-index: 1000;
+    width: 120px;
+    display: none;
+}
+.mos-index-tab-right-click .layui-nav-item .layui-nav-child a
+{
+    padding: 0 10px;
+    line-height: 30px;
+    height: 30px;
+}
+
+
+.mos-index-fold-expand
+{
+    position: fixed;
+    top: 65px;
+    left: 200px;
+    width: 30px;
+    height: 40px;
+    line-height: 40px;
+    cursor: pointer;
+    z-index: 998;
+    background-color: #1AA094;
+    color: #FFF;
+    text-align: center;
+}
+.mos-index-fold-expand:hover
+{
+    color: #FFF;
+}
