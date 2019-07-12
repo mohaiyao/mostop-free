@@ -111,8 +111,8 @@ class LoginForm extends Model
             {
                 $AdminLoginLog = new AdminLoginLogExtends();
                 $data['AdminLoginLogExtends'] = [
-                    'userid'  => $this->user_identity->userid,
-                    'ip'      => isset($_SERVER['HTTP_X_REAL_IP']) ? $_SERVER['HTTP_X_REAL_IP'] : Yii::$app->request->getUserIP(),
+                    'userid' => $this->user_identity->userid,
+                    'ip' => isset($_SERVER['HTTP_X_REAL_IP']) ? $_SERVER['HTTP_X_REAL_IP'] : Yii::$app->request->getUserIP(),
                     'succeed' => 0,
                 ];
                 $AdminLoginLog->load($data) && $AdminLoginLog->save();

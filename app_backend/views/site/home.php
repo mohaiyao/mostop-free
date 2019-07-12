@@ -68,7 +68,7 @@ EOF;
             </tr>
             <tr>
                 <td>官网网站：<a href="<?php echo Html::encode(Yii::$app->params['system_url']); ?>" target="_blank"><?php echo Html::encode(Yii::$app->params['system_url']); ?></a></td>
-                <td>咨询微信：<a href="javascript:;" id="mos-site-home-wechat"><i class="layui-icon layui-icon-login-wechat"></i> lensic_mo</a><div id="mos-site-home-wechat-img" class="layui-hide"><img src="/img/admin_wechat.jpg"></div></td>
+                <td>咨询微信：<a href="javascript:;" id="mos-site-home-wechat"><i class="layui-icon layui-icon-login-wechat"></i> lensic_mo</a><div id="mos-site-home-wechat-img" class="layui-hide"><img src="/lib/img/admin_wechat.jpg"></div></td>
             </tr>
             <tr>
                 <td>咨询 QQ：<a target="_blank" href="http://wpa.qq.com/msgrd?v=3&uin=<?php echo Html::encode(Yii::$app->params['admin_qq']); ?>&site=qq&menu=yes"><i class="layui-icon layui-icon-login-qq"></i> <?php echo Html::encode(Yii::$app->params['admin_qq']); ?></a></td>

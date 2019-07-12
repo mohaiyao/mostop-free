@@ -15,7 +15,7 @@ $config = [
             'class' => 'app_backend\components\MCache',
         ],
         'request' => [
-            'cookieValidationKey' => '4wqVfNqSrJlVfEZbHgnul3NneLNbaCgz',
+            'cookieValidationKey' => 'M3aNCoXNTSdZEA6DGRkyyoJsmnR8rXc1', // TODO
             'csrfParam' => '_csrf-backend',
         ],
         'user' => [

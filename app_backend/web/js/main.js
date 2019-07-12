@@ -100,6 +100,7 @@ layui.use(['form', 'laydate', 'element'], function (){
         var obj_this = $(this);
         var url = obj_this.data('url');
         var parameters = obj_this.data('parameters');
+        var result = obj_this.data('result');
         var format_url = url + (parameters ? (url.indexOf('?') != -1 ? '&' : '?') + parameters : '');
         layer.load();
         $.get(format_url, {}, function (response, status){
@@ -108,7 +109,12 @@ layui.use(['form', 'laydate', 'element'], function (){
             {
                 if(response.status == 1000)
                 {
-                    layer.msg(response.msg, {icon: 1});
+                    layer.msg(response.msg, {icon: 1}, function (){
+                        if(result == 'reload')
+                        {
+                            window.location.reload();
+                        }
+                    });
                 } else {
                     layer.msg(response.msg, {icon: 2});
                 }

@@ -17,7 +17,9 @@ use yii\helpers\Html;
 <body>
 <?php $this->beginBody(); ?>
 <div class="mos-error-container">
-    <img src="/lib/img/404.jpg">
+    <div class="mos-error-img">
+        <img src="/lib/img/404.jpg">
+    </div>
     <div class="mos-error-button">
         <a href="/" class="layui-btn">返回后台</a>
     </div>

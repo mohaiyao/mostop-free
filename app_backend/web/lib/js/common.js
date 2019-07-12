@@ -44,27 +44,6 @@ layui.define(function (exports){
         get_verify_password_desc: function (){
             var rule_desc = '密码由 6 ~ 20 位字符组成';
             return rule_desc;
-        },
-        /**
-         * 验证文件名
-         * @param filename
-         * @returns {boolean}
-         */
-        verify_filename: function (filename){
-            var rule = /^[a-zA-Z0-9_\-]+$/;
-            if(rule.test(filename))
-            {
-                return true;
-            }
-            return false;
-        },
-        /**
-         * 获取文件名验证规则描述
-         * @returns {string}
-         */
-        get_verify_filename_desc: function (){
-            var rule_desc = '文件名不合法';
-            return rule_desc;
         }
     };
 
