@@ -13,8 +13,8 @@ https://www.mostop.cn/product.html
 ##### chown www:www app_backend/web/assets/
 ##### chown www:www app_backend/web/uploads/
 
-### 3、添加 nginx 配置到 nginx 服务器中，注意修改项目名称及路径
-##### \_\_DOCUMENT\_\_/admin.free.mostop.cn.public.conf
+### 3、添加 nginx 配置到 nginx 服务器中，注意修改 TODO 注释的内容
+##### \_\_DOCUMENT\_\_/conf/*
 
 ### 4、创建 utf8、utf8_general_ci 的 mostop_free 数据库并导入数据
 ##### \_\_DOCUMENT\_\_/mostop_free.sql
@@ -24,7 +24,7 @@ https://www.mostop.cn/product.html
 ##### vim common/config/db.php
 
 ### 6、绑定开发 hosts
-##### 192.168.101.245 admin.free.mostop.cn.public
+##### 192.168.101.201 admin.free.mostop.cn.public
 
 ### 7、访问项目链接地址
 ##### http://admin.free.mostop.cn.public/
