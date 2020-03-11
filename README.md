@@ -28,6 +28,8 @@ https://www.mostop.cn/product.html
 
 ### 7、访问项目链接地址
 ##### http://admin.free.mostop.cn.public/
+##### 用户名：admin
+##### 密码：123456
 
 ### 8、配置线上环境，完毕！
 ##### app_backend/web/index.php
