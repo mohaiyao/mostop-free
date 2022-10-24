@@ -24,11 +24,17 @@ $config = [
                     'class' => 'yii\log\FileTarget',
                     'levels' => ['error', 'warning'],
                     'logFile' => '@runtime/logs/' . date('Ym') . '/app_' . date('d') . '.log',
+                    'except' => [
+                        'yii\web\HttpException:404',
+                    ],
                 ],
                 [
                     'class' => 'yii\log\DbTarget',
                     'levels' => ['error', 'warning'],
                     'logTable' => '{{%log}}',
+                    'except' => [
+                        'yii\web\HttpException:404',
+                    ],
                 ],
             ],
         ],

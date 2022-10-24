@@ -12,7 +12,7 @@ return [
     'system_name' => 'MOSTOP',
 
     // 系统 URL
-    'system_url' => 'https://www.mostop.cn/',
+    'system_url' => 'https://mostop.cn/',
 
     // 版权所有
     'system_copyright_by' => '莫海耀',

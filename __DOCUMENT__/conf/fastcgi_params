@@ -1,4 +1,4 @@
-fastcgi_pass   192.168.3.201:9010; # TODO 更改 IP 及 PORT
+fastcgi_pass   192.168.101.201:9010; # TODO 更改 IP 及 PORT
 fastcgi_index  index.php;
 fastcgi_param  SCRIPT_FILENAME    $document_root$fastcgi_script_name;
 

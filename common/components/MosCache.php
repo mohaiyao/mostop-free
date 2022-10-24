@@ -3,10 +3,11 @@
 namespace common\components;
 
 use Yii;
+use yii\base\Component;
 
 use common\models\Setting;
 
-class MosCache extends MosTopCache
+class MosCache extends Component
 {
     /**
      * 获取数据库数据缓存
