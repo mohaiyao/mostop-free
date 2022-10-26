@@ -22,7 +22,7 @@ $config = [
             'targets' => [
                 [
                     'class' => 'yii\log\FileTarget',
-                    'levels' => ['error', 'warning'],
+                    'levels' => ['error'],
                     'logFile' => '@runtime/logs/' . date('Ym') . '/app_' . date('d') . '.log',
                     'except' => [
                         'yii\web\HttpException:404',
@@ -30,7 +30,7 @@ $config = [
                 ],
                 [
                     'class' => 'yii\log\DbTarget',
-                    'levels' => ['error', 'warning'],
+                    'levels' => ['error'],
                     'logTable' => '{{%log}}',
                     'except' => [
                         'yii\web\HttpException:404',

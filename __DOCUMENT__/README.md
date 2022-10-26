@@ -1,7 +1,7 @@
 # MOSTOP 免费版
 
 ### DEMO 示例
-##### http://admin.demo.mostop.cn/
+##### https://admin.demo.mostop.cn/
 
 ### 项目搭建步骤
 
@@ -21,7 +21,6 @@ https://mostop.cn/product.html
 
 ### 5、修改项目配置 TODO
 ##### vim common/config/db.php
-##### vim app_backend/config/main.php
 
 ### 6、绑定开发 hosts
 ##### 192.168.101.201 adminfree.dev.mostop.cn
@@ -32,5 +31,5 @@ https://mostop.cn/product.html
 ##### 密码：123456
 
 ### 8、配置线上环境，完毕！
-##### app_backend/web/index.php
 ##### common/config/db.php
+##### app_backend/web/index.php
